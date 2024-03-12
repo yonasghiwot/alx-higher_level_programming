@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 from sys import stderr
 
-stderr.write("and that piece of art is useful - yonas, 2024-03-12\n")
+stderr.write("and that piece of art is useful - Dora Korpar, 2015-10-19\n")
 exit(1)
