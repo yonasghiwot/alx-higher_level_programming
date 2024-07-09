@@ -2,7 +2,7 @@
 """
 Fetches https://intranet.hbtn.io/status
 use the package urllib
-body of the response must be displayed 
+body of the response must be displayed
 in tabulation before
 """
 import urllib.request
