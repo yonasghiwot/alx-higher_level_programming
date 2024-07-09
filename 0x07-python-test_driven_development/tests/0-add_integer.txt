@@ -24,20 +24,20 @@ Because add_integer() doesn't take non-numbers it should throw an error
 if a non-number is passed as one of its arguments.
 
 Adding an integer and a float.
-	>>> add_integer(2, 3.0) #doctest: +REPORT_NDIFF
-	5
+	>>> add_integer(5, 3.0) #doctest: +REPORT_NDIFF
+	8
 
 Adding a float and an integer.
-	>>> add_integer(3.0, 3)
-	6
+	>>> add_integer(6.0, 3)
+	9
 
 Passing one argument.
     >>> add_integer(2)
     100
 
 Adding a positive and negative integer.
-    >>> add_integer(2, -4)
-    -2
+    >>> add_integer(2, -8)
+    -6
 
 Adding a negative and positive integer.
     >>> add_integer(-6, 8)
@@ -231,4 +231,4 @@ Passing 0 arguments.
     >>> add_integer()
     Traceback (most recent call last):
         ...
-    TypeError: add_integer() missing one required positional argument: 'a'
+    TypeError: add_integer() missing 1 required positional argument: 'a'

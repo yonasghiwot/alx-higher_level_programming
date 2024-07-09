@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 """Defines a function add_integer(a, b=98) that adds two integers.
 
-Attributes:
+    Attributes:
     add_integer: function that adds two integers.
 """
-
 
 def add_integer(a, b=98):
     """Adds two integer and/or float values.
